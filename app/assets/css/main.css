@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Satoshi', sans-serif;
+    @apply bg-gray-50 text-gray-900 antialiased min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-primary text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Clash Display', sans-serif;
+  }
+}
+
+.glass-card {
+  @apply bg-white border border-gray-200 rounded-xl;
+}
+
+.glass-pill {
+  @apply bg-gray-100 border border-gray-200 rounded-full;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-700 text-white font-semibold py-2.5 px-5 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-50 text-gray-700 border border-gray-300 font-semibold py-2.5 px-5 rounded-lg transition-all duration-200;
+}
+
