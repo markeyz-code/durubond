@@ -83,6 +83,32 @@
               <span class="px-4 py-2 bg-brand-gold/10 border border-brand-gold/30 text-brand-gold font-bold text-xs rounded-full">Venco</span>
             </div>
           </div>
+
+          <div class="mt-12 pt-8 border-t border-white/10">
+            <h4 class="text-xs font-bold text-brand-gold tracking-[0.2em] uppercase mb-6">Community Reach</h4>
+            <div class="grid grid-cols-3 sm:grid-cols-5 gap-4">
+              <div>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">70K<span class="text-brand-gold">+</span></h5>
+                <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">Instagram</p>
+              </div>
+              <div>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">50K<span class="text-brand-gold">+</span></h5>
+                <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">TikTok</p>
+              </div>
+              <div>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">35K<span class="text-brand-gold">+</span></h5>
+                <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">Facebook</p>
+              </div>
+              <div>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">20K<span class="text-brand-gold">+</span></h5>
+                <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">X</p>
+              </div>
+              <div>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">12K<span class="text-brand-gold">+</span></h5>
+                <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">YouTube</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

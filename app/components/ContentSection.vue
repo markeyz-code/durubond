@@ -61,6 +61,8 @@
           <span class="px-5 py-2.5 bg-brand-bg/50 backdrop-blur-sm border border-white/5 text-xs font-bold tracking-[0.2em] text-brand-text-muted hover:text-white hover:border-brand-gold/50 transition-all rounded-full cursor-default uppercase">Property Development</span>
           <span class="px-5 py-2.5 bg-brand-bg/50 backdrop-blur-sm border border-white/5 text-xs font-bold tracking-[0.2em] text-brand-text-muted hover:text-white hover:border-brand-gold/50 transition-all rounded-full cursor-default uppercase">Urban Development</span>
           <span class="px-5 py-2.5 bg-brand-bg/50 backdrop-blur-sm border border-white/5 text-xs font-bold tracking-[0.2em] text-brand-text-muted hover:text-white hover:border-brand-gold/50 transition-all rounded-full cursor-default uppercase">Policy</span>
+          <span class="px-5 py-2.5 bg-brand-bg/50 backdrop-blur-sm border border-white/5 text-xs font-bold tracking-[0.2em] text-brand-text-muted hover:text-white hover:border-brand-gold/50 transition-all rounded-full cursor-default uppercase">Property Education</span>
+          <span class="px-5 py-2.5 bg-brand-bg/50 backdrop-blur-sm border border-white/5 text-xs font-bold tracking-[0.2em] text-brand-text-muted hover:text-white hover:border-brand-gold/50 transition-all rounded-full cursor-default uppercase">African Real Estate</span>
         </div>
       </div>
 
@@ -140,6 +142,27 @@
           <img src="https://img.youtube.com/vi/09KnRFvfKSA/maxresdefault.jpg" alt="Navigating the Real Estate Market" class="absolute inset-0 w-full h-full object-cover filter contrast-110 group-hover:scale-110 group-hover:blur-sm transition-all duration-700" />
           <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex flex-col justify-end p-8">
             <h4 class="text-white font-heading font-bold text-xl md:text-2xl leading-tight group-hover:-translate-y-4 transition-transform duration-500">Navigating the Real Estate Market</h4>
+          </div>
+          <div class="absolute inset-0 bg-brand-gold/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="text-brand-bg font-bold tracking-[0.2em] uppercase text-sm border-2 border-brand-bg px-8 py-4 rounded-full flex items-center gap-3 transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 shadow-xl">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+              Watch Now
+            </div>
+          </div>
+        </a>
+
+        <!-- Video 5 -->
+        <a 
+          href="https://www.youtube.com/watch?v=ZOuy9auVvog"
+          target="_blank"
+          class="block aspect-video bg-brand-bg rounded-2xl border border-white/5 relative group overflow-hidden shadow-2xl"
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800 } }"
+        >
+          <img src="https://img.youtube.com/vi/ZOuy9auVvog/maxresdefault.jpg" alt="Real Estate Insights Nigeria" class="absolute inset-0 w-full h-full object-cover filter contrast-110 group-hover:scale-110 group-hover:blur-sm transition-all duration-700" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex flex-col justify-end p-8">
+            <h4 class="text-white font-heading font-bold text-xl md:text-2xl leading-tight group-hover:-translate-y-4 transition-transform duration-500">Real Estate Insights Nigeria</h4>
           </div>
           <div class="absolute inset-0 bg-brand-gold/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <div class="text-brand-bg font-bold tracking-[0.2em] uppercase text-sm border-2 border-brand-bg px-8 py-4 rounded-full flex items-center gap-3 transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 shadow-xl">

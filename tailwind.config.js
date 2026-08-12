@@ -22,8 +22,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Satoshi', 'sans-serif'],
-        heading: ['Clash Display', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        heading: ['Plus Jakarta Sans', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
