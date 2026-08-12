@@ -18,20 +18,20 @@
 
     <!-- Abstract architectural lines -->
     <div class="absolute inset-0 pointer-events-none opacity-10 z-10">
-      <div class="absolute top-0 left-1/4 w-[1px] h-full bg-brand-gold"></div>
-      <div class="absolute top-1/3 left-0 w-full h-[1px] bg-brand-gold"></div>
+      <div class="absolute top-0 left-1/4 w-[1px] h-full bg-brand-primary"></div>
+      <div class="absolute top-1/3 left-0 w-full h-[1px] bg-brand-primary"></div>
     </div>
 
     <div class="max-w-7xl mx-auto w-full px-4 md:px-6 grid lg:grid-cols-12 gap-8 relative z-20 pt-32 md:pt-20">
       <!-- Text Content -->
       <div class="lg:col-span-8 relative">
         <div 
-          class="inline-block px-4 py-1.5 border border-brand-gold/30 rounded-full mb-8 backdrop-blur-sm"
+          class="inline-block px-4 py-1.5 border border-brand-primary/30 rounded-full mb-8 backdrop-blur-sm"
           v-motion
           :initial="{ opacity: 0, y: 20 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 800, ease: 'easeOut' } }"
         >
-          <span class="text-brand-gold text-xs font-bold tracking-[0.2em] uppercase">Premier Advisory</span>
+          <span class="text-brand-primary text-xs font-bold tracking-[0.2em] uppercase">Premier Advisory</span>
         </div>
         
         <div class="absolute -top-20 -left-10 text-brand-surface font-heading text-[12rem] font-bold select-none tracking-tighter hidden md:block whitespace-nowrap opacity-50 -z-10">
@@ -45,12 +45,12 @@
           :enter="{ opacity: 1, y: 0, transition: { duration: 1000, delay: 200, ease: 'circOut' } }"
         >
           Real Estate<br />
-          <span class="text-brand-gold font-medium">Entrepreneur</span><br />
+          <span class="text-brand-primary font-medium">Entrepreneur</span><br />
           <span class="text-3xl md:text-5xl lg:text-6xl">& Property Advisor</span>
         </h1>
         
         <p 
-          class="text-base md:text-xl text-brand-text-muted mb-12 max-w-lg font-light leading-relaxed border-l border-brand-gold/50 pl-6"
+          class="text-base md:text-xl text-brand-text-muted mb-12 max-w-lg font-light leading-relaxed border-l border-brand-primary/50 pl-6"
           v-motion
           :initial="{ opacity: 0, x: -30 }"
           :enter="{ opacity: 1, x: 0, transition: { duration: 1000, delay: 400, ease: 'circOut' } }"
@@ -67,9 +67,9 @@
           <a 
             href="#contact"
             @click.prevent="() => { const el = document.getElementById('contact'); if (el) el.scrollIntoView({ behavior: 'smooth' }); }"
-            class="group relative w-full sm:w-auto px-10 py-4 bg-brand-gold text-brand-bg text-sm font-bold tracking-widest overflow-hidden text-center rounded-full hover:shadow-[0_0_30px_rgba(212,175,55,0.3)] transition-all duration-300 cursor-pointer"
+            class="group relative w-full sm:w-auto px-10 py-4 bg-brand-primary text-white text-sm font-bold tracking-widest overflow-hidden text-center rounded-full hover:shadow-[0_0_30px_rgba(212,175,55,0.3)] transition-all duration-300 cursor-pointer"
           >
-            <span class="relative z-10 uppercase text-brand-bg group-hover:text-brand-bg transition-colors duration-300">Book Strategy Session</span>
+            <span class="relative z-10 uppercase text-white group-hover:text-brand-bg transition-colors duration-300">Strategy Session</span>
             <div class="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500 ease-out z-0"></div>
           </a>
         </div>
@@ -83,9 +83,9 @@
           :initial="{ opacity: 0, y: 30 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 1000, delay: 800, ease: 'easeOut' } }"
         >
-          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-gold to-transparent"></div>
+          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-primary to-transparent"></div>
           <div class="flex items-center gap-6">
-            <div class="text-6xl font-heading font-bold text-brand-gold group-hover:scale-110 transition-transform duration-500">10+</div>
+            <div class="text-6xl font-heading font-bold text-brand-primary group-hover:scale-110 transition-transform duration-500">10+</div>
             <div class="text-xs tracking-[0.2em] text-white font-bold uppercase leading-relaxed">
               Years of <br /> Excellence
             </div>

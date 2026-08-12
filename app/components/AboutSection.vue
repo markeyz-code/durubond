@@ -23,7 +23,7 @@
               class="w-full h-full object-cover filter contrast-125 grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100"
             />
             <!-- Accent Box -->
-            <div class="absolute -bottom-6 -right-6 w-3/4 h-32 bg-brand-gold -z-10 rounded-xl blur-xl opacity-20"></div>
+            <div class="absolute -bottom-6 -right-6 w-3/4 h-32 bg-brand-primary -z-10 rounded-xl blur-xl opacity-20"></div>
           </div>
         </div>
         
@@ -35,13 +35,13 @@
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 1000, ease: 'easeOut' } }"
         >
           <div class="flex items-center gap-4 mb-8">
-            <div class="w-12 h-[1px] bg-brand-gold"></div>
-            <h2 class="text-brand-gold font-bold tracking-[0.2em] text-xs uppercase">The Advisor</h2>
+            <div class="w-12 h-[1px] bg-brand-primary"></div>
+            <h2 class="text-brand-primary font-bold tracking-[0.2em] text-xs uppercase">The Advisor</h2>
           </div>
           
           <h3 class="text-4xl md:text-5xl font-heading font-bold text-white mb-8 leading-[1.2] tracking-tighter">
             More than a consultant.<br />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-white">A Strategic Partner.</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-white">A Strategic Partner.</span>
           </h3>
           
           <div class="space-y-6 text-brand-text-muted text-base md:text-lg border-l border-white/10 pl-6 font-light leading-relaxed">
@@ -61,7 +61,7 @@
           
           <div class="mt-12 grid grid-cols-2 gap-8 border-t border-white/10 pt-8">
             <div>
-              <h4 class="text-4xl font-heading font-bold text-brand-gold mb-2">10</h4>
+              <h4 class="text-4xl font-heading font-bold text-brand-primary mb-2">10</h4>
               <p class="text-xs text-white/50 tracking-[0.2em] font-bold uppercase">Years Experience</p>
             </div>
             <div>
@@ -71,7 +71,7 @@
           </div>
           
           <div class="mt-12 pt-8 border-t border-white/10">
-            <h4 class="text-xs font-bold text-brand-gold tracking-[0.2em] uppercase mb-6">Featured On & Partners</h4>
+            <h4 class="text-xs font-bold text-brand-primary tracking-[0.2em] uppercase mb-6">Featured On & Partners</h4>
             <div class="flex flex-wrap gap-3 items-center">
               <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">REMA 2025</span>
               <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">OffAir with Gbemi & Toolz</span>
@@ -79,32 +79,32 @@
               <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Noble Nigeria</span>
               <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Lagos Talks 91.3</span>
               <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Honest Bunch Podcast</span>
-              <span class="px-4 py-2 bg-brand-gold/10 border border-brand-gold/30 text-brand-gold font-bold text-xs rounded-full">Lagos State Govt</span>
-              <span class="px-4 py-2 bg-brand-gold/10 border border-brand-gold/30 text-brand-gold font-bold text-xs rounded-full">Venco</span>
+              <span class="px-4 py-2 bg-brand-primary/10 border border-brand-primary/30 text-brand-primary font-bold text-xs rounded-full">Lagos State Govt</span>
+              <span class="px-4 py-2 bg-brand-primary/10 border border-brand-primary/30 text-brand-primary font-bold text-xs rounded-full">Venco</span>
             </div>
           </div>
 
           <div class="mt-12 pt-8 border-t border-white/10">
-            <h4 class="text-xs font-bold text-brand-gold tracking-[0.2em] uppercase mb-6">Community Reach</h4>
+            <h4 class="text-xs font-bold text-brand-primary tracking-[0.2em] uppercase mb-6">Community Reach</h4>
             <div class="grid grid-cols-3 sm:grid-cols-5 gap-4">
               <div>
-                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">70K<span class="text-brand-gold">+</span></h5>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">70K<span class="text-brand-primary">+</span></h5>
                 <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">Instagram</p>
               </div>
               <div>
-                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">50K<span class="text-brand-gold">+</span></h5>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">50K<span class="text-brand-primary">+</span></h5>
                 <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">TikTok</p>
               </div>
               <div>
-                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">35K<span class="text-brand-gold">+</span></h5>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">35K<span class="text-brand-primary">+</span></h5>
                 <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">Facebook</p>
               </div>
               <div>
-                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">20K<span class="text-brand-gold">+</span></h5>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">20K<span class="text-brand-primary">+</span></h5>
                 <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">X</p>
               </div>
               <div>
-                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">12K<span class="text-brand-gold">+</span></h5>
+                <h5 class="text-2xl md:text-3xl font-heading font-bold text-white mb-1">12K<span class="text-brand-primary">+</span></h5>
                 <p class="text-[10px] text-white/50 tracking-[0.2em] font-bold uppercase">YouTube</p>
               </div>
             </div>

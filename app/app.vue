@@ -9,7 +9,7 @@ useHead({
 </script>
 
 <template>
-  <div class="min-h-screen bg-brand-bg text-brand-text font-sans selection:bg-brand-gold selection:text-brand-bg overflow-x-hidden flex flex-col">
+  <div class="min-h-screen bg-brand-bg text-brand-text font-sans selection:bg-brand-primary selection:text-brand-bg overflow-x-hidden flex flex-col">
     <Navbar />
     <div class="flex-grow relative z-0">
       <NuxtPage />

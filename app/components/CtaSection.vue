@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section id="book" class="py-32 relative bg-brand-navy border-t border-brand-gold">
+  <section id="book" class="py-32 relative bg-brand-navy border-t border-brand-primary">
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
 
     <div class="max-w-4xl mx-auto px-4 md:px-6 relative z-10 text-center">
@@ -14,16 +14,16 @@
       >
         <h2 class="text-3xl md:text-5xl font-heading font-bold text-white mb-8 leading-tight tracking-tight">
           Ready to Make Your <br class="hidden md:block" />
-          <span class="text-brand-gold">Next Big Move?</span>
+          <span class="text-brand-primary">Next Big Move?</span>
         </h2>
         <p class="text-white/70 text-base md:text-lg mb-12 max-w-xl mx-auto font-light">
           Book a one-on-one consultation today and let's craft a winning strategy for your real estate portfolio.
         </p>
         
         <a 
-          href="https://selar.co" 
+          href="https://selar.co/662a73" 
           target="_blank"
-          class="group inline-flex items-center justify-center gap-4 bg-transparent border border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-navy px-12 py-5 font-bold text-sm tracking-widest transition-all duration-300"
+          class="group inline-flex items-center justify-center gap-4 bg-transparent border border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white px-12 py-5 font-bold text-sm tracking-widest transition-all duration-300"
         >
           Book Your Session
           <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
