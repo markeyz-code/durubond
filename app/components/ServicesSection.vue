@@ -2,21 +2,6 @@
 import { Search, Home, Map, TrendingUp, Building, Users, Megaphone } from 'lucide-vue-next'
 
 const services = [
-  // {
-  //   title: 'Property Acquisition Advisory',
-  //   description: 'Helping buyers identify suitable properties, assess locations, evaluate pricing and navigate the acquisition process.',
-  //   icon: Search
-  // },
-  // {
-  //   title: 'Property Sales & Disposition',
-  //   description: 'Strategic marketing and sales of residential properties, development land and investment assets.',
-  //   icon: Home
-  // },
-  {
-    title: 'Real Estate Marketing',
-    description: 'Strategic marketing for developers, estates and property owners.Including: Property campaigns, Video marketing, Social-media strategy, Project positioning, Launch campaigns, and Investor-facing content.',
-    icon: Map
-  },
   {
     title: 'Real Estate Investment Advisory',
     description: 'Helping investors understand location fundamentals, acquisition price, development economics, rental potential, capital appreciation,  market risks and exit strategy.',
@@ -26,7 +11,12 @@ const services = [
     title: 'Joint Venture & Development Opportunities',
     description: 'Connecting landowners, developers and capital where appropriate, and helping structure commercially viable development opportunities.',
     icon: Users
-  }
+  },
+    {
+    title: 'Real Estate Marketing',
+    description: 'Strategic marketing for developers, estates and property owners.Including: Property campaigns, Video marketing, Social-media strategy, Project positioning, Launch campaigns, and Investor-facing content.',
+    icon: Map
+  },
 ]
 </script>
 
