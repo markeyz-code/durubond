@@ -6,7 +6,7 @@
   <section id="book" class="py-32 relative bg-brand-navy border-t border-brand-gold">
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
 
-    <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 relative z-10 text-center">
       <div 
         v-motion
         :initial="{ opacity: 0, y: 30 }"
@@ -14,7 +14,7 @@
       >
         <h2 class="text-3xl md:text-5xl font-heading font-bold text-white mb-8 leading-tight tracking-tight">
           Ready to Make Your <br class="hidden md:block" />
-          <span class="text-brand-gold italic">Next Big Move?</span>
+          <span class="text-brand-gold">Next Big Move?</span>
         </h2>
         <p class="text-white/70 text-base md:text-lg mb-12 max-w-xl mx-auto font-light">
           Book a one-on-one consultation today and let's craft a winning strategy for your real estate portfolio.

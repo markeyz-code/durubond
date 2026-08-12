@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <section id="about" class="py-32 bg-white relative">
+  <section id="about" class="py-32 bg-brand-surface relative overflow-hidden">
     <!-- Background element -->
-    <div class="absolute right-0 top-0 w-1/3 h-full bg-brand-bg/50"></div>
+    <div class="absolute right-0 top-0 w-1/3 h-full bg-brand-bg/50 rounded-l-[100px]"></div>
 
-    <div class="max-w-7xl mx-auto px-6 md:px-12">
+    <div class="max-w-7xl mx-auto px-4 md:px-12 relative z-10">
       <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         <!-- Image side -->
         <div 
@@ -16,14 +16,14 @@
           :initial="{ opacity: 0, x: -50 }"
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 1000, ease: 'easeOut' } }"
         >
-          <div class="relative w-full aspect-[4/5] bg-brand-bg border border-brand-navy/5">
+          <div class="relative w-full aspect-[4/5] bg-brand-bg rounded-2xl overflow-hidden border border-white/5 shadow-2xl shadow-black">
             <img 
               src="/images/durubond_about_1786457259086.png" 
-              alt="Durubond showing property" 
-              class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+              alt="Duru Bond showing property" 
+              class="w-full h-full object-cover filter contrast-125 grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100"
             />
             <!-- Accent Box -->
-            <div class="absolute -bottom-6 -right-6 w-3/4 h-32 bg-brand-navy -z-10"></div>
+            <div class="absolute -bottom-6 -right-6 w-3/4 h-32 bg-brand-gold -z-10 rounded-xl blur-xl opacity-20"></div>
           </div>
         </div>
         
@@ -34,36 +34,53 @@
           :initial="{ opacity: 0, x: 50 }"
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 1000, ease: 'easeOut' } }"
         >
-          <div class="flex items-center gap-4 mb-6">
+          <div class="flex items-center gap-4 mb-8">
             <div class="w-12 h-[1px] bg-brand-gold"></div>
-            <h2 class="text-brand-gold font-bold tracking-widest text-xs">About Me</h2>
+            <h2 class="text-brand-gold font-bold tracking-[0.2em] text-xs uppercase">The Advisor</h2>
           </div>
           
-          <h3 class="text-3xl md:text-4xl font-heading font-bold text-brand-navy mb-8 leading-[1.2] tracking-tight">
+          <h3 class="text-4xl md:text-5xl font-heading font-bold text-white mb-8 leading-[1.2] tracking-tighter">
             More than a consultant.<br />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy to-brand-gold">A Strategic Partner.</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-white">A Strategic Partner.</span>
           </h3>
           
-          <div class="space-y-6 text-gray-600 text-base md:text-lg border-l border-gray-200 pl-6">
+          <div class="space-y-6 text-brand-text-muted text-base md:text-lg border-l border-white/10 pl-6 font-light leading-relaxed">
             <p>
-              With deep roots in the real estate market, I've spent years navigating the complexities of property investment, development, and portfolio management.
+              Duru Bond is a Nigerian real estate entrepreneur and property advisor helping people navigate property acquisition, development and investment with greater clarity. His work sits at the intersection of real estate, economics and the built environment.
             </p>
             <p>
-              My philosophy is simple: real estate isn't just about transactions; it's about building generational wealth and making informed decisions that stand the test of time.
+              Through real estate practice and millions of views online, he breaks down the economics, risks and opportunities shaping Nigeria's property market.
             </p>
             <p>
-              Whether you are a first-time buyer looking for the perfect home or an experienced investor expanding your portfolio, I provide the insights and strategies needed to succeed in today's dynamic market.
+              His content has attracted a large audience across social platforms and has led to appearances on podcasts, media platforms and industry events discussing Nigeria's housing market, real estate investment, development and urban issues.
+            </p>
+            <p>
+              He has appeared on platforms including Honest bunch, OffAir with Gbemi & Toolz, Menisms and many more discussing subjects including Lagos housing costs, property investment, agency fees, property development and the economics of renting and owning property.
             </p>
           </div>
           
-          <div class="mt-12 grid grid-cols-2 gap-8 border-t border-gray-100 pt-8">
+          <div class="mt-12 grid grid-cols-2 gap-8 border-t border-white/10 pt-8">
             <div>
-              <h4 class="text-3xl font-heading font-bold text-brand-navy mb-1">500+</h4>
-              <p class="text-xs text-gray-500 tracking-widest font-bold">Happy Clients</p>
+              <h4 class="text-4xl font-heading font-bold text-brand-gold mb-2">10</h4>
+              <p class="text-xs text-white/50 tracking-[0.2em] font-bold uppercase">Years Experience</p>
             </div>
             <div>
-              <h4 class="text-3xl font-heading font-bold text-brand-navy mb-1">$50M+</h4>
-              <p class="text-xs text-gray-500 tracking-widest font-bold">Property Sold</p>
+              <h4 class="text-lg font-heading font-bold text-white mb-2 leading-tight">Lagos, Abuja, Kenya, Ghana, Ivory Coast</h4>
+              <p class="text-xs text-white/50 tracking-[0.2em] font-bold uppercase mt-2">Markets</p>
+            </div>
+          </div>
+          
+          <div class="mt-12 pt-8 border-t border-white/10">
+            <h4 class="text-xs font-bold text-brand-gold tracking-[0.2em] uppercase mb-6">Featured On & Partners</h4>
+            <div class="flex flex-wrap gap-3 items-center">
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">REMA 2025</span>
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">OffAir with Gbemi & Toolz</span>
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Menisms</span>
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Noble Nigeria</span>
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Lagos Talks 91.3</span>
+              <span class="px-4 py-2 border border-white/10 text-white/70 font-medium text-xs rounded-full hover:bg-white/5 hover:text-white transition-colors">Honest Bunch Podcast</span>
+              <span class="px-4 py-2 bg-brand-gold/10 border border-brand-gold/30 text-brand-gold font-bold text-xs rounded-full">Lagos State Govt</span>
+              <span class="px-4 py-2 bg-brand-gold/10 border border-brand-gold/30 text-brand-gold font-bold text-xs rounded-full">Venco</span>
             </div>
           </div>
         </div>

@@ -12,17 +12,21 @@ export default {
     extend: {
       colors: {
         brand: {
-          navy: '#1B2A4A',
-          'navy-dark': '#14213D',
-          gold: '#C9A227',
-          'gold-dark': '#B8860B',
-          bg: '#FAF7F0',
-          text: '#2E2E2E',
+          bg: '#050505',
+          surface: '#121212',
+          gold: '#D4AF37',
+          'gold-dark': '#AA8C2C',
+          text: '#F5F5F5',
+          'text-muted': '#A3A3A3',
+          accent: '#1A1A1A',
         },
-        primary: {
-          DEFAULT: '#1B2A4A',
-          700: '#14213D',
-        }
+      },
+      fontFamily: {
+        sans: ['Satoshi', 'sans-serif'],
+        heading: ['Clash Display', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },
   },
