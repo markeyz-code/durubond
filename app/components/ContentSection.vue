@@ -120,7 +120,24 @@
           </div>
         </a>
 
+      </div>
 
+      <!-- See More Link -->
+      <div class="mt-12 flex justify-end border-t border-white/5 pt-8">
+        <a 
+          href="https://www.youtube.com/@durubond" 
+          target="_blank"
+          class="group inline-flex items-center gap-3 text-white font-bold text-sm tracking-widest relative overflow-hidden uppercase hover:text-brand-primary transition-colors"
+          v-motion
+          :initial="{ opacity: 0, x: 20 }"
+          :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 800, delay: 300 } }"
+        >
+          <span>See more</span>
+          <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+          </svg>
+          <div class="absolute -bottom-1 left-0 w-full h-[1px] bg-brand-primary transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+        </a>
       </div>
     </div>
   </section>

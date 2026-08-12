@@ -75,22 +75,26 @@
         </div>
       </div>
       
-      <!-- Stats Content -->
+      <!-- Stats Content / Instagram Card -->
       <div class="lg:col-span-4 flex items-end justify-start lg:justify-end mt-12 lg:mt-0">
-        <div 
-          class="bg-brand-surface/40 backdrop-blur-md p-8 border border-white/5 rounded-2xl relative overflow-hidden group"
+        <a 
+          href="https://www.instagram.com/bond_not_james?igsh=d2M5eDlmNTNrNmg4"
+          target="_blank"
+          class="bg-brand-surface/40 backdrop-blur-md p-6 pr-10 border border-white/5 rounded-2xl relative overflow-hidden group flex items-center gap-5 hover:border-white/20 transition-all duration-300 cursor-pointer block hover:shadow-[0_0_30px_rgba(253,29,29,0.15)]"
           v-motion
           :initial="{ opacity: 0, y: 30 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 1000, delay: 800, ease: 'easeOut' } }"
         >
-          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-primary to-transparent"></div>
-          <div class="flex items-center gap-6">
-            <div class="text-6xl font-heading font-bold text-brand-primary group-hover:scale-110 transition-transform duration-500">10+</div>
-            <div class="text-xs tracking-[0.2em] text-white font-bold uppercase leading-relaxed">
-              Years of <br /> Excellence
-            </div>
+          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45]"></div>
+          
+          <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-500 shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
           </div>
-        </div>
+          <div>
+            <div class="text-sm font-bold text-white mb-1 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#f09433] group-hover:to-[#bc1888] transition-all duration-300">@bond_not_james</div>
+            <div class="text-xs tracking-[0.1em] text-brand-text-muted uppercase font-bold">Follow on Instagram</div>
+          </div>
+        </a>
       </div>
     </div>
   </section>

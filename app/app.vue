@@ -11,9 +11,16 @@ useHead({
 <template>
   <div class="min-h-screen bg-brand-bg text-brand-text font-sans selection:bg-brand-primary selection:text-brand-bg overflow-x-hidden flex flex-col">
     <Navbar />
+    <FloatingSocials />
     <div class="flex-grow relative z-0">
       <NuxtPage />
     </div>
     <Footer />
   </div>
 </template>
+
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>

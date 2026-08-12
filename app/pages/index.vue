@@ -15,6 +15,7 @@ useSeoMeta({
     <ServicesSection />
     <ContentSection />
     <CtaSection />
+    <SocialsSection />
     <ContactSection />
   </main>
 </template>

@@ -8,10 +8,10 @@
     <div class="absolute right-0 top-0 w-1/3 h-full bg-brand-bg/50 rounded-l-[100px]"></div>
 
     <div class="max-w-7xl mx-auto px-4 md:px-12 relative z-10">
-      <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         <!-- Image side -->
         <div 
-          class="order-2 lg:order-1 relative"
+          class="order-2 lg:order-1 relative mt-2"
           v-motion
           :initial="{ opacity: 0, x: -50 }"
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 1000, ease: 'easeOut' } }"
