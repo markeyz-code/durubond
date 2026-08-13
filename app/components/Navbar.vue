@@ -58,8 +58,8 @@ onUnmounted(() => {
       </nav>
       
       <a 
-        href="#contact" 
-        @click.prevent="scrollTo('contact')"
+        href="https://selar.co/662a73" 
+        target="_blank"
         class="hidden md:inline-flex bg-brand-primary text-white hover:bg-white hover:text-brand-bg px-6 py-2.5 rounded-full font-sans font-bold text-xs tracking-widest transition-all duration-300 uppercase hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] cursor-pointer relative z-20"
       >
         Strategy Session
@@ -86,8 +86,8 @@ onUnmounted(() => {
         <a href="#services" @click.prevent="scrollTo('services')" class="hover:text-brand-primary transition-colors duration-300">Services</a>
         <a href="#content" @click.prevent="scrollTo('content')" class="hover:text-brand-primary transition-colors duration-300">Insights</a>
         <a 
-          href="#contact" 
-          @click.prevent="scrollTo('contact')"
+          href="https://selar.co/662a73" 
+          target="_blank"
           class="mt-4 bg-brand-primary text-white px-8 py-3 rounded-full font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-brand-bg transition-all duration-300"
         >
           Strategy Session

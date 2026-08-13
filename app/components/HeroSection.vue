@@ -65,8 +65,8 @@
           :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 600, ease: 'easeOut' } }"
         >
           <a 
-            href="#contact"
-            @click.prevent="() => { const el = document.getElementById('contact'); if (el) el.scrollIntoView({ behavior: 'smooth' }); }"
+            href="https://selar.co/662a73"
+            target="_blank"
             class="group relative w-full sm:w-auto px-10 py-4 bg-brand-primary text-white text-sm font-bold tracking-widest overflow-hidden text-center rounded-full hover:shadow-[0_0_30px_rgba(212,175,55,0.3)] transition-all duration-300 cursor-pointer"
           >
             <span class="relative z-10 uppercase text-white group-hover:text-brand-bg transition-colors duration-300">Strategy Session</span>
