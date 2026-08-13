@@ -40,22 +40,21 @@
           </div>
           
           <h3 class="text-4xl md:text-5xl font-heading font-bold text-white mb-8 leading-[1.2] tracking-tighter">
-            More than a consultant.<br />
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-white">A Strategic Partner.</span>
           </h3>
           
           <div class="space-y-6 text-brand-text-muted text-base md:text-lg border-l border-white/10 pl-6 font-light leading-relaxed">
             <p>
-              Duru Bond is a Nigerian real estate entrepreneur and property advisor helping people navigate property acquisition, development and investment with greater clarity. His work sits at the intersection of real estate, economics and the built environment.
+              Duru Bond is a Nigerian real estate entrepreneur and property expert helping people navigate property acquisition, development and investment with greater clarity. His work sits at the intersection of real estate, economics and the built environment.
             </p>
             <p>
-              Through real estate practice and millions of views online, he breaks down the economics, risks and opportunities shaping Nigeria's property market.
+              A Mechanical Engineer by training with numerous years in property development, he shares his experience online where he breaks down the economics, risks and opportunities shaping Nigeria's property market.
             </p>
             <p>
-              His content has attracted a large audience across social platforms and has led to appearances on podcasts, media platforms and industry events discussing Nigeria's housing market, real estate investment, development and urban issues.
+              His content has helped investors make the right decisions and also attracted a large audience across social platforms, which has led to appearances on media platforms, podcasts and industry events discussing Nigeria's housing market, real estate investment, development and urban issues.
             </p>
             <p>
-              He has appeared on platforms including Honest bunch, OffAir with Gbemi & Toolz, Menisms and many more discussing subjects including Lagos housing costs, property investment, agency fees, property development and the economics of renting and owning property.
+              Some of these platforms include The Honest bunch Podcast, OffAir with Gbemi & Toolz, Menisms and many more.
             </p>
           </div>
           

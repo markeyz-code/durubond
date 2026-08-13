@@ -46,7 +46,7 @@
         >
           Real Estate<br />
           <span class="text-brand-primary font-medium">Entrepreneur</span><br />
-          <span class="text-3xl md:text-5xl lg:text-6xl">& Property Advisor</span>
+          <span class="text-3xl md:text-5xl lg:text-6xl">& Property Expert</span>
         </h1>
         
         <p 
